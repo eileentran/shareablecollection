@@ -86,4 +86,44 @@
       }
       </script>
 
+
+      <script type="text/javascript">
+                  var randInterval = 0;
+                  var songList = ["friendlyvoicemail1","friendlyvoicemail2","church"];
+                  var myAudio = new Audio(songList[Math.floor(Math.random()*songList.length)] + ".mp3");
+
+                  //Generates a random song, sets it attributes/properties, and
+                  //appends a file extension that works with the browser.
+                  function getRandomSong(){
+                      var randSong = songList[Math.floor(Math.random()*songList.length)]
+                      if (myAudio.canPlayType('audio/mp3;')) {
+                          myAudio.src= randSong + ".mp3";
+                      } else {
+                          myAudio.src= randSong + ".ogg";
+                      }
+                      myAudio.id="myAudio";
+                      myAudio.volume=0.15;
+                      myAudio.load();
+                      myAudio.controls=false
+                      myAudio.preload=false;
+                  }
+
+                  //Sets a random interval for the setTimeout Function with the
+                  //'variation' parameter being a random amount of time in
+                  //seconds, and the 'range' parameter being a set amount of time
+                  //in seconds.
+                  function getRandomInterval(variation, range){
+                      randInterval = Math.floor((Math.random()*1000*variation)+(1000*range));
+                      return randInterval;
+                  }
+
+                  //Gets a random song and plays that song.
+                  function playMusic(){
+                      getRandomSong();
+                      myAudio.play();
+                  }
+              </script>
+
+
+
     </body></html>
