@@ -1,1 +1,43 @@
-@font-face{font-family:AG-Light;src:url(../fonts/AkzidenzGroteskBE-LightOsF.eot?#iefix) format("embedded-opentype"),url(../fonts/AkzidenzGroteskBE-LightOsF.woff) format("woff"),url(../fonts/AkzidenzGroteskBE-LightOsF.ttf) format("truetype"),url(../fonts/AkzidenzGroteskBE-LightOsF.svg#AkzidenzGroteskBE-LightOsF) format("svg");font-weight:400;font-style:normal}body,html{margin:0;width:100%;height:100vh;overflow:hidden;webkit-font-smoothing:antialiased!important}a:active,a:hover,a:link,a:visited{text-decoration:underline;color:inherit}header{left:50%;transform:translateX(-50%);font-family:arial,sans-serif;font-size:14px;color:#fff;text-align:center;margin:25px 0 0;z-index:2;letter-spacing:.09em;line-height:18px;mix-blend-mode:difference}.content,header{position:absolute;top:0;width:100%}.content{left:0;z-index:1;height:100%}.content,.roll{margin:0;padding:0}.roll{position:relative;width:100%;height:100vh}.image{height:100vh!important;background-size:cover!important}
+@font-face{font-family:AG-Light;src:url(../fonts/AkzidenzGroteskBE-LightOsF.eot?#iefix) format("embedded-opentype"),url(../fonts/AkzidenzGroteskBE-LightOsF.woff) format("woff"),url(../fonts/AkzidenzGroteskBE-LightOsF.ttf) format("truetype"),url(../fonts/AkzidenzGroteskBE-LightOsF.svg#AkzidenzGroteskBE-LightOsF) format("svg");font-weight:400;font-style:normal}body,html{margin:0;width:100%;height:100vh;overflow:hidden;webkit-font-smoothing:antialiased!important}
+
+a:active,
+a:hover,
+a:link,
+a:visited
+  {text-decoration:underline;color:inherit}
+
+header
+  {left:50%;
+    transform:translateX(-50%);
+    font-family:arial,sans-serif;
+    font-size:14px;
+    color:#fff;
+    text-align:center;
+    margin:25px 0 0;
+    z-index:2;
+    letter-spacing:.09em;
+    line-height:18px;
+    mix-blend-mode:difference}
+
+.content,header
+  {position:absolute;
+    top:0;width:100%}
+
+.content
+  {left:0;
+    z-index:1;
+    height:100%}
+
+.content,.roll
+  {margin:0;padding:0}
+
+.roll
+  {position:relative;
+    width:100%;
+    height:100vh}
+
+.image
+  {height:100vh!important;
+    background-size:cover!important}
+
+  
