@@ -19,6 +19,19 @@ header
     line-height:18px;
     mix-blend-mode:difference}
 
+.footer,header
+  {left:80%;
+    transform:translateX(-80%);
+    font-family:arial,sans-serif;
+    font-size:14px;
+    color:#fff;
+    text-align:center;
+    margin:25px 0 0;
+    z-index:2;
+    letter-spacing:.09em;
+    line-height:18px;
+    mix-blend-mode:difference}
+
 .content,header
   {position:absolute;
     top:0;width:100%}
@@ -39,5 +52,3 @@ header
 .image
   {height:100vh!important;
     background-size:cover!important}
-
-  
